@@ -1,0 +1,25 @@
+// 5 - Ordenar o vetor com Bobble Sort
+for (int i = 0; i < vetor.Length - 1; i++)
+{
+    int atual = vetor[i];
+    int proxima = vetor[i + 1];
+    if(atual > proxima)
+    {
+        int auxiliar = atual;
+        atual  = proxima;
+        proxima = auxiliar;
+
+    }
+}
+
+// 6 - imprimir o vetor com ordenação 
+
+for(int i = 0; i < vetor.length; i++)
+{
+    Console.Write(vetor[i] + " ");
+}
+
+
+linhas adicionadas pelo professor 
+
+
